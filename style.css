@@ -1,0 +1,175 @@
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align:center;
+    text-align: center;
+    z-index: 1000;
+    border-style:inset;
+    margin-top: -23px;
+    margin-left: -20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.loginback{
+    text-align: center;
+    margin-left: -10px;
+    background-color: rgb(137, 137, 231);
+    border-bottom-left-radius: 100px;
+}
+.login{
+    margin: 100px 100px 100px 200px;
+    justify-content: center;
+    align-items: center;
+    border: groove;
+    max-width: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.logintext {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.username{
+    margin: 10px 50px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(61, 58, 58);
+    background-color: rgb(219, 211, 211);
+    opacity: 0.2;
+    color: black;
+}
+.username::placeholder{
+    color: rgb(15, 12, 12);
+    font-size: 1.3em;
+}
+.password{
+    margin: 10px 50px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(61, 58, 58);
+    background-color: rgb(219, 211, 211);
+
+    opacity: 0.2;
+    color: black;
+}
+.password::placeholder{
+    font-size: 1.2em;
+    color: rgb(15, 12, 12);
+}
+.icon{
+    margin-left: 10px;
+}
+.uchun{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(167, 158, 158);
+    font-size: 17px;
+}
+.backimg {
+    background-size: cover; 
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0; 
+    display: flex;
+    padding: 10px 10px;
+    background-size: cover;
+    
+    
+}
+.login_button{
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    width: 410px;
+    background-color: rgb(218, 13, 156);
+    opacity: 0.6;
+    border: none;
+    margin: 10px 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.login_button:hover{
+    background-color: rgb(255, 0, 0);
+    
+}
+.forgotpassword{
+    margin: 10px 100px;
+}
+.video-darslik{
+    text-align: center;
+    padding: 10px 10px;
+}
+.yoz{
+    margin-top: -10px;
+    font-size: 20px;
+}
+.video-darslik button{
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    height: 150px;
+    margin: 10px 10px 10px 10px ;
+    background-color: white;
+    cursor: pointer;
+}
+.video-darslik button:hover{
+    background-color: blue;
+    transition: 1s;
+    color: white;
+}
+.video-darslik{
+    background-color: #f0f0f0;
+
+}
+.video-darslik button .sinf{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.video-darslik .extra{
+    margin-bottom: 20px;
+}
+.news{
+    margin-left: 300px;
+}
+.qidiruv{
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: rgb(126, 120, 120);
+    border-style: ;
+}
+.qidiruv {
+    margin-right: 400px;
+}
+.brend {
+    margin-right: 30px;
+    font-size: 20px;
+}
+body{
+    text-align: center;
+}
